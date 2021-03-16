@@ -2,7 +2,7 @@ bms_thresholds = {'temperature': {'min': 0, 'max': 45}, 'soc': {'min': 20, 'max'
                   'charging_rate': {'min': 0, 'max': 0.8}}
 
 bms_system_languages = {'en': 'BMS System configured with English',
-                        'de':'BMS-System auf Englisch konfiguriert'}
+                        'de':'BMS-System mit Deutsch konfiguriert'}
 
 bms_system_temperature_unit = {'C': 'Celcius',
                         'F':'Fahrenheit'}
