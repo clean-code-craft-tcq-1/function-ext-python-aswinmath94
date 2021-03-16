@@ -30,12 +30,12 @@ def bms_breach_param(anomalies):
 
 def BMS_temperature_haldler(bms_parameter, bms_parameter_value):
     if bms_parameter == 'temperature':
-        return Fahrenheit_to_Celcius_converter(bms_parameter_value)
+        return convert_to_celcius(bms_parameter_value)
     else:
         return bms_parameter_value
 
 
-def Fahrenheit_to_Celcius_converter(bms_parameter_value):
+def convert_to_celcius(bms_parameter_value):
     if bms_system_configurator.system_temp_unit == 'F':
         return (bms_parameter_value - 32) * (5 / 9)
     else:
